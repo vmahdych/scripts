@@ -4,7 +4,7 @@
 
 echo -e "\n~~ Fortune Teller ~~\n"
 
-RESPONSES=("Yes" "Sure;)" "No" "No way!" "Maybe" "Outlook good" "Don't count on it" "Ask again later" "Oh! It's a tough one")
+RESPONSES=("Yes" "Sure;)" "No" "No way!" "Maybe" "Looks good" "Don't count on it" "Ask again later" "Oh! It's a tough one")
 N=$(( RANDOM % 9 ))
 
 function GET_FORTUNE() {
