@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 
-x=input('give me number:')
+nums = [1, 2, 8, 3, 7]
+res = list(filter(lambda x: x%2==0, nums))
 
-if int(x) > 10 :
-    print('huge number')
-else :
-    print('that`s a small one')
-
-print('Done!')
+print(res)
